@@ -85,6 +85,7 @@ function clearBoard(){
   resetButton.addEventListener("click", function(){
     for (var i = 0; i < boxes.length; i++) {
       boxes[i].innerText = "";
+      boxes[i].style.backgroundColor= "white";
     };
     counter = 0;
   })
