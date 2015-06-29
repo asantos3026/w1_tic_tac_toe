@@ -6,3 +6,8 @@
   border: 1px solid black;
   height: 150px;
 }
+
+#reset {
+  display:block;
+  margin:0 auto;
+}
